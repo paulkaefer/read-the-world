@@ -12,9 +12,10 @@ I welcome you to add it.
 
 The map is available at <forthcoming>.
 
-# My todos
-* clean-up files (should just have .csv, not Excel)
+## My todos
+* better visuals? (color scheme/hover)
+* more information, such as links to the books?
 
-# Acknowledgements
+## Acknowledgements
 Thanks to Laura DG for inspiring me to read more books from around the world, Ann Morgan for her fabulous [TED talk](http://www.ted.com/talks/ann_morgan_my_year_reading_a_book_from_every_country_in_the_world) and [website](https://ayearofreadingtheworld.com/thelist/), and to Micah Stubbs for [this D3 map code](http://bl.ocks.org/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f).
 
