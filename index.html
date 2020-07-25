@@ -84,6 +84,8 @@
 
 <p>Inspired by a friend I met in Tanzania and <a href="http://www.ted.com/talks/ann_morgan_my_year_reading_a_book_from_every_country_in_the_world" target=_blank>this TED talk</a>.
     <br>I welcome you to <a href="https://github.com/paulkaefer/read-the-world" target=_blank>use my code or submit a reading suggestion</a>!</p>
+
+<map></map>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -110,7 +112,7 @@ var color = ["rgb(0, 0, 0)", "rgb(255, 0, 0)", "rgb(0, 0, 255)", "rgb(128, 0, 12
 
 var path = d3.geoPath();
 
-var svg = d3.select("body")
+var svg = d3.select("map")
             .append("svg")
             .attr("style", "border: 5px solid gold;")
             .attr("width", width)
@@ -224,5 +226,12 @@ function ready(error, data, book_list) {
 }
 
 </script>
+
+<br><br><br>
+
+<a href="http://paulkaefer.com/">Home</a>
+
+</center>
+
 </body>
 </html>
