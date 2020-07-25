@@ -1,315 +1,315 @@
-Code,Country,Book,Author,Read,Notes,
-AF,Afghanistan,The Little Coffee Shop of Kabul,Deborah Rodriguez,0,,
-AF,Afghanistan,And the Mountains Echoed,Khaled Hosseini,0,,
-AF,Afghanistan,A Thousand Splendid Suns,Khaled Hosseini,0,,
-AF,Afghanistan,The Kite Runner,Khaled Hosseini,1,,
-AL,Albania,,,0,,
-DZ,Algeria,,,0,,
-AS,American Samoa,,,0,,
-AD,Andorra,,,0,,
-AO,Angola,,,0,,
-AI,Anguilla,,,0,,
-AQ,Antarctica,,,0,,
-AG,Antigua and Barbuda,,,0,,
-AR,Argentina,Out of the Silence: After the Crash,Eduardo Strauch with Mireya Soriano,0,,
-AM,Armenia,The 40 days of Musa Dagh,Franz Werfel,0,,
-AW,Aruba,,,0,,
-AU,Australia,The Narrow Road to the Deep North,Richard Flanagan,0,,
-AT,Austria,The Little Book: A Novel,Selden Edwards,0,,
-AZ,Azerbaijan,,,0,,
-BS,Bahamas,,,0,,
-BH,Bahrain,,,0,,
-BD,Bangladesh,,,0,,
-BB,Barbados,,,0,,
-BY,Belarus,,,0,,
-BE,Belgium,,,0,,
-BZ,Belize,Snapshots of Belize: An Anthology of Short Fiction,"Leo Bradley, Zoila Ellis, Evadne Garcia, Evan X. Hyde, Lawrence Vernon, Colville Young, John A. Watler",0,,
-BJ,Benin,,,0,,
-BM,Bermuda,,,0,,
-BT,Bhutan,,,0,,
-BO,Bolivia,,,0,,
-BQ,Bonaire,,,0,,
-BA,Bosnia and Herzegovina,,,0,,
-BW,Botswana,The No. 1 Ladies Detective Agency Series,Alexander McCall Smith,1,,
-BV,Bouvet Island,,,0,,
-BR,Brazil,Along the Tapajós,Fernando Vilela,0,,
-IO,British Indian Ocean Territory,,,0,,
-VG,British Virgin Islands,,,0,,
-BN,Brunei,,,0,,
-BG,Bulgaria,,,0,,
-BF,Burkina Faso,,,0,,
-BI,Burundi,,,0,,
-KH,Cambodia,,,0,,
-CM,Cameroon,,,0,,
-CM,Cameroon,,,0,,
-CA,Canada,,,0,,
-CV,Cape Verde,,,0,,
-KY,Cayman Islands,,,0,,
-CF,Central African Republic,,,0,,
-TD,Chad,,,0,,
-CL,Chile,The House of the Spirits,Isabel Allende,0,,
-CN,China,Wild Swans: Three Daughters of China,Jung Chang,0,,
-CN,China,Life,Lu Yao,0,,
-CX,Christmas Island,,,0,,
-CO,Colombia,One Hundred Years of Solitude,Gabriel García Márquez,1,,
-CO,Colombia,,,0,,
-KM,Comoros,,,0,,
-CK,Cook Islands,,,0,,
-CR,Costa Rica,,,0,,
-CR,Costa Rica,,,0,,
-HR,Croatia,,,0,,
-CU,Cuba,Love in the Time of Cholera,Gael Garcia Maquez,0,,
-CW,Curacao,,,0,,
-CY,Cyprus,,,0,,
-CZ,Czech Republic,The Unbearable Lightness of Being,Milan Kundera,0,,
-CZ,Czech Republic,The Affliction of Praha,Simon Gillard,0,murder mystery set in 1920s Czechoslovakia,
-CD,Democratic Republic of the Congo,Blood River ,Tim Butcher,0,,
-CD,Democratic Republic of the Congo,The Poisonwood Bible,Barbara Kingsolver,1,,
-CD,Democratic Republic of the Congo,Congo: The Epic History of a People,David van Reybrouck,0,,
-DK,Denmark,,,0,,
-DJ,Djibouti,,,0,,
-DM,Dominica,,,0,,
-DO,Dominican Republic,The Life of Oscar Wao,Junot Diaz,0,,
-TL,East Timor,Beloved Land,Gordon Peake,0,,
-EC,Ecuador,,,0,,
-EG,Egypt,The Yacoubian Building,Alaa Al Aswany,0,,
-SV,El Salvador,,,0,,
-GQ,Equatorial Guinea,,,0,,
-ER,Eritrea,,,0,,
-EE,Estonia,,,0,,
-ET,Ethiopia,Cutting for Stone ,Abraham Verghese,0,,
-FK,Falkland Islands,,,0,,
-FO,Faroe Islands,Far Afield,Susanna Kaysen,0,,
-FJ,Fiji,,,0,,
-FI,Finland,,,0,,
-FR,France,Germinal,Emile Zola,0,,
-FR,France,Chocolat,Joanne Harris,0,,
-FR,France,The Spy,Paulo Coelho,1,,
-FR,France,Living Well Is the Best Revenge,Calvin Tomkins,0,,
-GF,French Guiana,,,0,,
-PF,French Polynesia,,,0,,
-TF,French Southern Territories,,,0,,
-GA,Gabon,,,0,,
-GM,Gambia,,,0,,
-GE,Georgia,,,0,,
-DE,Germany,Christopher and His Kind,Christopher Isherwood,1,,
-DE,Germany,Bent,Martin Sherman,1,,
-DE,Germany,Your Perfect Year,Charlotte Lucas,0,,
-GH,Ghana,Ghana Must Go,Taiye Selasi,0,,
-GH,Ghana,No Sweetness Here,Ama Ata Aidoo,0,,
-GH,Ghana,Accra,Kwei Quartey,0,,
-GH,Ghana,The Beautiful Ones Are Not Yet Born,Ayi Kwei Armah,0,,
-GH,Ghana,Homegoing,Yaa Gyasi,1,,
-GI,Gibraltar,,,0,,
-GR,Greece,Captain Correli's Mandolin,Louse de Bernieres,0,,
-GR,Greece,Middlesex,Jeffrey Eugenides,0,,
-GL,Greenland,,,0,,
-GD,Grenada,,,0,,
-GP,Guadeloupe,,,0,,
-GU,Guam,,,0,,
-GT,Guatemala,,,0,,
-GG,Guernsey,,,0,,
-GN,Guinea,The African Child,Camara Laye,1,,
-GW,Guinea-Bissau,,,0,,
-GY,Guyana,,,0,,
-HT,Haiti,"Breath, Eyes, Memory",Edwidge Danticat,0,,
-HM,Heard Island and McDonald Islands,,,0,,
-HN,Honduras,,,0,,
-HK,Hong Kong,,,0,,
-HU,Hungary,,,0,,
-IS,Iceland,Trolls - Monster Worm - Hidden People: Fond Memories of Iceland,Íeda Jónasdóttir Herman,1,,
-IN,India,The Lowland,Jhumpa Lahiri,0,,
-IN,India,The Lives of Others,Neel Murkherjee,0,,
-IN,India,Shantaram,Gregory David Roberts,0,,
-IN,India,Midnight's Children,Salman Rushdie,0,,
-IN,India,Siddhartha,Hermann Hesse,1,,
-ID,Indonesia,,,0,,
-IR,Iran,Persepolis,Marjane Satrapi,1,,
-IQ,Iraq,,,0,,
-IE,Ireland,The Field,John B. Keane,1,,
-IE,Ireland,Sive,John B. Keane,1,,
-IE,Ireland,An tOileánach (The Islandman),Tomás Ó Criomhthain,0,,
-IM,Isle of Man,,,0,,
-IL,Israel,Apeirogon,Colum McCann,0,Rachael W. recommends,
-IL,Israel,The First Mrs. Rothschild,Sara Aharoni,0,,
-IT,Italy,The Name of the Rose,Umberto Eco,0,,
-CI,Ivory Coast,,,0,,
-JM,Jamaica,,,0,,
-JP,Japan,An Artist of the Floating World,Kazuo Ishiguro,0,,
-JP,Japan,My Brother's Husband,Gengoroh Tagame,1,,
-JP,Japan,Number9Dream,David Mitchell,1,,
-JE,Jersey,,,0,,
-JO,Jordan,,,0,,
-KZ,Kazakhstan,,,0,,
-KE,Kenya,A Grain of Wheat,Ngugi wa Thiong'o,0,,
-KE,Kenya,Out of Africa,Isak Dinesen,0,,
-KE,Kenya,The White Masai,Corinne Hofmann,1,,
-KE,Kenya,When Stars are Scattered,Victoria Jamieson and Omar Mohamed,1,,
-KE,Kenya,The Man-eaters of Tsavo,John Henry Patterson,1,,
-KE,Kenya,One Day I Will Write About This Place: A Memoir,Binyavanga Wainaina,1,,
-KI,Kiribati,,,0,,
-XK,Kosovo,,,0,,
-KW,Kuwait,,,0,,
-KG,Kyrgyzstan,,,0,,
-LA,Laos,,,0,,
-LV,Latvia,,,0,,
-LB,Lebanon,,,0,,
-LS,Lesotho,,,0,,
-LR,Liberia,Murder in the Cassava Patch,Bai T. Moore,1,,
-LY,Libya,,,0,,
-LI,Liechtenstein,,,0,,
-LT,Lithuania,,,0,,
-LU,Luxembourg,,,0,,
-MO,Macao,,,0,,
-MK,Macedonia,,,0,,
-MG,Madagascar,,,0,,
-MW,Malawi,,,0,,
-MY,Malaysia,The Kampung Boy,Lat,1,,
-MY,Malaysia,Town Boy,Lat,1,,
-MV,Maldives,,,0,,
-ML,Mali,The Fortunes of Wangri,Amadou Hampâté Bâ,0,,
-ML,Mali,Sidikiba's Kora Lesson,Ryan Thomas Skinner,1,children's book,
-MT,Malta,,,0,,
-MH,Marshall Islands,,,0,,
-MQ,Martinique,,,0,,
-MR,Mauritania,,,0,,
-MU,Mauritius,,,0,,
-YT,Mayotte,,,0,,
-MX,Mexico,The Pearl,John Steinbeck,1,,
-FM,Micronesia,,,0,,
-MD,Moldova,,,0,,
-MC,Monaco,,,0,,
-MN,Mongolia,,,0,,
-ME,Montenegro,,,0,,
-MS,Montserrat,,,0,,
-MA,Morocco,,,0,,
-MZ,Mozambique,Chronicler of the Winds,Henning Mankell,0,,
-MM,Myanmar (Burma),,,0,,
-NA,Namibia,,,0,,
-NR,Nauru,,,0,,
-NP,Nepal,,,0,,
-NL,Netherlands,The Diary of Anne Frank,Anne Frank,1,,
-NC,New Caledonia,,,0,,
-NZ,New Zealand,,,0,,
-NI,Nicaragua,,,0,,
-NE,Niger,,,0,,
-NG,Nigeria,Americanah,Chimamanda Ngozi Adichie,1,,
-NG,Nigeria,Things Fall Apart,Chinua Achebe,1,,
-NG,Nigeria,Lagos__2060,"Afolabi Muheez Ashiru, Okey Egboluche, Chiagozie Fred Nwonwu, Kofo Akib, Ayodele Arigbabu, Adebola Rayo, Terh Agbedeh, Temitayo Olofinlua, Curated by Ayodele Arigbabu, Illustrated by Ibrahim Ganiyu",0,have read partially,
-NG,Nigeria,Egbon of Lagos: A Play,Akin Bello,0,,
-NU,Niue,,,0,,
-NF,Norfolk Island,,,0,,
-KP,North Korea,The Orphan Master's Son ,Adam Johnson,0,,
-MP,Northern Mariana Islands,,,0,,
-NO,Norway,Sophie’s World,Jostein Gaardner,0,,
-NO,Norway,"Through a Glass, Darkly",Jostein Gaardner,0,,
-NO,Norway,Naïve. Super,Erlend Loe,0,book that inspired Mayor Pete to learn Norwegian (https://www.newyorker.com/books/page-turner/the-coming-of-age-tale-that-inspired-mayor-pete-to-learn-norwegian),
-OM,Oman,,,0,,
-PK,Pakistan,"Shabanu, Daughter of the Wind",Suzanne Fisher Staples,0,Ryan recommends,
-PW,Palau,,,0,,
-PS,Palestine,,,0,,
-PA,Panama,,,0,,
-PG,Papua New Guinea,"Savage Harvest: A Tale of Cannibals, Colonialism and Michael Rockefeller's Tragic Quest",Carl Hoffman,0,,
-PY,Paraguay,,,0,,
-PE,Peru,Turn Right at Machu Picchu,Mark Adams,1,,
-PH,Philippines,,,0,,
-PN,Pitcairn Islands,,,0,,
-PL,Poland,Almost English,Charlotte Mendelson,0,,
-PL,Poland,Night,Elie Wiesel,1,,
-PT,Portugal,,,0,,
-PR,Puerto Rico,,,0,,
-QA,Qatar,,,0,,
-CG,Republic of the Congo,,,0,,
-RO,Romania,,,0,,
-RU,Russia,Fear No Evil ,Natan Sharansky,0,,
-RU,Russia,Crime and Punishment,Fyodor Dostoevsky,0,,
-RU,Russia,War and Peace,Leo Tolstoy,0,,
-RU,Russia,Aleph,Paulo Coelho,1,,
-RW,Rwanda,A Sunday at the Pool in Kigali,Gil Courtemanche,0,,
-RE,Réunion,,,0,,
-BL,Saint Barthélemy,,,0,,
-SH,Saint Helena,,,0,,
-KN,Saint Kitts and Nevis,,,0,,
-LC,Saint Lucia,,,0,,
-MF,Saint Martin,,,0,,
-PM,Saint Pierre and Miquelon,,,0,,
-VC,Saint Vincent and the Grenadines,,,0,,
-WS,Samoa,,,0,,
-SM,San Marino,,,0,,
-SA,Saudi Arabia,,,0,,
-SN,Senegal,The Belly of the Atlantic,Fatou Diome,0,,
-RS,Serbia,,,0,,
-SC,Seychelles,,,0,,
-SL,Sierra Leone,A Long Way Gone: Memoirs of a Boy Soldier,Ishmael Beah,0,,
-SG,Singapore,Kumar: From Rags to Drag,Kumarason "Kumar" Chinnadurai,0,,
-SX,Sint Maarten,,,0,,
-SK,Slovakia,,,0,,
-SI,Slovenia,,,0,,
-SB,Solomon Islands,,,0,,
-SO,Somalia,Desert Flower ,Waris Dirie,0,,
-SO,Somalia,Hiding in Plain Sight,Nuruddin Farah,0,,
-ZA,South Africa,Cry The Beloved Country,Alan Paton,0,,
-ZA,South Africa,July's People,Nadine Gordimer,0,,
-ZA,South Africa,Born a Crime,Trevor Noah,1,,
-ZA,South Africa,Long Walk to Freedom,Nelson Mandela,0,,
-GS,South Georgia and the South Sandwich Islands,,,0,,
-KR,South Korea,,,0,,
-SS,South Sudan,What is the What,Dave Eggars,0,,
-ES,Spain,The Savage Detectives,Roberto Bolano,0,,
-ES,Spain,The Shadow of the Wind,Carlos Ruiz Zafon,0,,
-ES,Spain,City of Marvels,Eduardo Mendoa,0,,
-ES,Spain,Cold Skin,Albert Sanchez Pinol,0,,
-ES,Spain,Soldiers of Salamis,Javier Cercas,0,,
-ES,Spain,The Price of Paradise,Susana López Rubio,0,,
-LK,Sri Lanka,,,0,,
-SD,Sudan,Season of Migration to the North,Tayeb Salih,0,,
-SR,Suriname,,,0,,
-SJ,Svalbard and Jan Mayen,,,0,,
-SZ,Swaziland,,,0,,
-SE,Sweden,The Hundred Year Old Man Who Climbed Out of the Window and Disappeared,Jonas Jonasson,0,,
-SE,Sweden,The Girl Who Saved the King of Sweden,Jonas Jonasson,0,,
-CH,Switzerland,Swiss Watching: Inside the Land of Milk and Money,Diccon Bewes,0,,
-CH,Switzerland,Stiller,Max Frisch,0,,
-CH,Switzerland,Homo Faber,Max Frisch,0,,
-SY,Syria,We Crossed a Bridge and it Trembled: Voices from Syria,Wendy Pearlman,0,,
-ST,São Tomé and Príncipe,,,0,,
-TW,Taiwan,,,0,,
-TJ,Tajikistan,,,0,,
-TZ,Tanzania,By the Sea ,Abdulrazak Gurnah,0,,
-TZ,Tanzania,Desertion,Abdulrazak Gurnah,0,,
-TZ,Tanzania,The Magic of Saida ,M. G. Vassanji,0,,
-TH,Thailand,,,0,,
-TG,Togo,,,0,,
-TK,Tokelau,,,0,,
-TO,Tonga,,,0,,
-TT,Trinidad and Tobago,The Stars and the Blackness Between Them,Junauda Petrus,1,,
-TN,Tunisia,,,0,,
-TR,Turkey,My Name is Red ,Orhan Pamuk,0,,
-TR,Turkey,The Girl in the Tree,Şebnem İşigüzel,0,,
-TM,Turkmenistan,,,0,,
-TC,Turks and Caicos Islands,,,0,,
-TV,Tuvalu,,,0,,
-UM,U.S. Minor Outlying Islands,,,0,,
-VI,U.S. Virgin Islands,,,0,,
-UG,Uganda,The Queen of Katwe,Tim Crothers,1,,
-UA,Ukraine,Zakhar Berkut,Ivan Franko,0,,
-AE,United Arab Emirates,,,0,,
-GB,United Kingdom,,,0,,
-US,United States,Native Son,Richard Wright,1,,
-US,United States,To Kill a Mockingbird,Harper Lee,1,,
-US,United States,Parable of the Sower,Octavia E. Butler,1,,
-US,United States,American War,Omar El Akkad,1,,
-UY,Uruguay,,,0,,
-UZ,Uzbekistan,,,0,,
-VU,Vanuatu,,,0,,
-VA,Vatican City,,,0,,
-VE,Venezuela,,,0,,
-VN,Vietnam,Inside Out & Back Again,Thanhha Lai,1,mostly takes place in the U.S.,
-WF,Wallis and Futuna,,,0,,
-EH,Western Sahara,,,0,,
-YE,Yemen,,,0,,
-ZM,Zambia,,,0,,
-ZW,Zimbabwe,We Need New Names,NoViolet Bulawayo,0,,
-ZW,Zimbabwe,Nervous Conditions,Tsitsi Dangarembga,0,,
-ZW,Zimbabwe,The Hairdresser of Harare,Tendai Huchu,0,,
-AX,Åland,,,0,,
+id,TwoLetterCode,Country,Book,Author,Read,Notes,visited_country
+AFG,AF,Afghanistan,The Little Coffee Shop of Kabul,Deborah Rodriguez,0,,0
+AFG,AF,Afghanistan,And the Mountains Echoed,Khaled Hosseini,0,,0
+AFG,AF,Afghanistan,A Thousand Splendid Suns,Khaled Hosseini,0,,0
+AFG,AF,Afghanistan,The Kite Runner,Khaled Hosseini,1,,0
+ALB,AL,Albania,,,0,,0
+DZA,DZ,Algeria,,,0,,0
+,AS,American Samoa,,,0,,0
+,AD,Andorra,,,0,,0
+AGO,AO,Angola,,,0,,0
+,AI,Anguilla,,,0,,0
+ATA,AQ,Antarctica,,,0,,0
+,AG,Antigua and Barbuda,,,0,,0
+ARG,AR,Argentina,Out of the Silence: After the Crash,Eduardo Strauch with Mireya Soriano,0,,0
+ARM,AM,Armenia,The 40 days of Musa Dagh,Franz Werfel,0,,0
+,AW,Aruba,,,0,,0
+AUS,AU,Australia,The Narrow Road to the Deep North,Richard Flanagan,0,,0
+AUT,AT,Austria,The Little Book: A Novel,Selden Edwards,0,,0
+AZE,AZ,Azerbaijan,,,0,,0
+BHS,BS,Bahamas,,,0,,0
+,BH,Bahrain,,,0,,0
+BGD,BD,Bangladesh,,,0,,0
+,BB,Barbados,,,0,,0
+BLR,BY,Belarus,,,0,,0
+BEL,BE,Belgium,,,0,,0
+BLZ,BZ,Belize,Snapshots of Belize: An Anthology of Short Fiction,"Leo Bradley, Zoila Ellis, Evadne Garcia, Evan X. Hyde, Lawrence Vernon, Colville Young, John A. Watler",0,,1
+BEN,BJ,Benin,,,0,,0
+,BM,Bermuda,,,0,,0
+BTN,BT,Bhutan,,,0,,0
+BOL,BO,Bolivia,,,0,,0
+,BQ,Bonaire,,,0,,0
+BIH,BA,Bosnia and Herzegovina,,,0,,0
+BWA,BW,Botswana,The No. 1 Ladies Detective Agency Series,Alexander McCall Smith,1,,0
+,BV,Bouvet Island,,,0,,0
+BRA,BR,Brazil,Along the Tapajós,Fernando Vilela,0,,0
+,IO,British Indian Ocean Territory,,,0,,0
+,VG,British Virgin Islands,,,0,,0
+BRN,BN,Brunei,,,0,,0
+BGR,BG,Bulgaria,,,0,,0
+BFA,BF,Burkina Faso,,,0,,0
+BDI,BI,Burundi,,,0,,0
+KHM,KH,Cambodia,,,0,,0
+CMR,CM,Cameroon,,,0,,0
+CMR,CM,Cameroon,,,0,,0
+CAN,CA,Canada,,,0,,1
+,CV,Cape Verde,,,0,,0
+,KY,Cayman Islands,,,0,,0
+CAF,CF,Central African Republic,,,0,,0
+TCD,TD,Chad,,,0,,0
+CHL,CL,Chile,The House of the Spirits,Isabel Allende,0,,0
+CHN,CN,China,Wild Swans: Three Daughters of China,Jung Chang,0,,0
+CHN,CN,China,Life,Lu Yao,0,,0
+,CX,Christmas Island,,,0,,0
+COL,CO,Colombia,One Hundred Years of Solitude,Gabriel García Márquez,1,,0
+COL,CO,Colombia,,,0,,0
+,KM,Comoros,,,0,,0
+,CK,Cook Islands,,,0,,0
+CRI,CR,Costa Rica,,,0,,0
+HRV,HR,Croatia,,,0,,0
+CUB,CU,Cuba,Love in the Time of Cholera,Gael Garcia Maquez,0,,0
+,CW,Curacao,,,0,,0
+CYP,CY,Cyprus,,,0,,0
+CZE,CZ,Czech Republic,The Unbearable Lightness of Being,Milan Kundera,0,,0
+CZE,CZ,Czech Republic,The Affliction of Praha,Simon Gillard,0,murder mystery set in 1920s Czechoslovakia,0
+COD,CD,Democratic Republic of the Congo,Blood River ,Tim Butcher,0,,0
+COD,CD,Democratic Republic of the Congo,The Poisonwood Bible,Barbara Kingsolver,1,,0
+COD,CD,Democratic Republic of the Congo,Congo: The Epic History of a People,David van Reybrouck,0,,0
+DNK,DK,Denmark,,,0,,0
+DJI,DJ,Djibouti,,,0,,0
+,DM,Dominica,,,0,,0
+DOM,DO,Dominican Republic,The Life of Oscar Wao,Junot Diaz,0,,0
+TLS,TL,East Timor,Beloved Land,Gordon Peake,0,,0
+ECU,EC,Ecuador,,,0,,0
+EGY,EG,Egypt,The Yacoubian Building,Alaa Al Aswany,0,,0
+SLV,SV,El Salvador,,,0,,0
+,GQ,Equatorial Guinea,,,0,,0
+ERI,ER,Eritrea,,,0,,0
+EST,EE,Estonia,,,0,,0
+ETH,ET,Ethiopia,Cutting for Stone ,Abraham Verghese,0,,0
+FLK,FK,Falkland Islands,,,0,,0
+,FO,Faroe Islands,Far Afield,Susanna Kaysen,0,,0
+FJI,FJ,Fiji,,,0,,0
+FIN,FI,Finland,,,0,,0
+FRA,FR,France,Germinal,Emile Zola,0,,1
+FRA,FR,France,Chocolat,Joanne Harris,0,,1
+FRA,FR,France,The Spy,Paulo Coelho,1,,1
+FRA,FR,France,Living Well Is the Best Revenge,Calvin Tomkins,0,,1
+,GF,French Guiana,,,0,,0
+,PF,French Polynesia,,,0,,0
+ATF,TF,French Southern Territories,,,0,,0
+GAB,GA,Gabon,,,0,,0
+GMB,GM,Gambia,,,0,,0
+GEO,GE,Georgia,,,0,,0
+DEU,DE,Germany,Christopher and His Kind,Christopher Isherwood,1,,0
+DEU,DE,Germany,Bent,Martin Sherman,1,,0
+DEU,DE,Germany,Your Perfect Year,Charlotte Lucas,0,,0
+GHA,GH,Ghana,Ghana Must Go,Taiye Selasi,0,,0
+GHA,GH,Ghana,No Sweetness Here,Ama Ata Aidoo,0,,0
+GHA,GH,Ghana,Accra,Kwei Quartey,0,,0
+GHA,GH,Ghana,The Beautiful Ones Are Not Yet Born,Ayi Kwei Armah,0,,0
+GHA,GH,Ghana,Homegoing,Yaa Gyasi,1,,0
+,GI,Gibraltar,,,0,,0
+GRC,GR,Greece,Captain Correli's Mandolin,Louse de Bernieres,0,,0
+GRC,GR,Greece,Middlesex,Jeffrey Eugenides,0,,0
+GRL,GL,Greenland,,,0,,0
+,GD,Grenada,,,0,,0
+,GP,Guadeloupe,,,0,,0
+,GU,Guam,,,0,,0
+GTM,GT,Guatemala,,,0,,1
+,GG,Guernsey,,,0,,0
+GIN,GN,Guinea,The African Child,Camara Laye,1,,0
+GNB,GW,Guinea-Bissau,,,0,,0
+GUY,GY,Guyana,,,0,,0
+HTI,HT,Haiti,"Breath, Eyes, Memory",Edwidge Danticat,0,,0
+,HM,Heard Island and McDonald Islands,,,0,,0
+HND,HN,Honduras,,,0,,0
+,HK,Hong Kong,,,0,,0
+HUN,HU,Hungary,,,0,,0
+ISL,IS,Iceland,Trolls - Monster Worm - Hidden People: Fond Memories of Iceland,Íeda Jónasdóttir Herman,1,,0
+IND,IN,India,The Lowland,Jhumpa Lahiri,0,,0
+IND,IN,India,The Lives of Others,Neel Murkherjee,0,,0
+IND,IN,India,Shantaram,Gregory David Roberts,0,,0
+IND,IN,India,Midnight's Children,Salman Rushdie,0,,0
+IND,IN,India,Siddhartha,Hermann Hesse,1,,0
+IDN,ID,Indonesia,,,0,,0
+IRN,IR,Iran,Persepolis,Marjane Satrapi,1,,0
+IRQ,IQ,Iraq,,,0,,0
+IRL,IE,Ireland,The Field,John B. Keane,1,,1
+IRL,IE,Ireland,Sive,John B. Keane,1,,1
+IRL,IE,Ireland,An tOileánach (The Islandman),Tomás Ó Criomhthain,0,,1
+,IM,Isle of Man,,,0,,0
+ISR,IL,Israel,Apeirogon,Colum McCann,0,Rachael W. recommends,0
+ISR,IL,Israel,The First Mrs. Rothschild,Sara Aharoni,0,,0
+ITA,IT,Italy,The Name of the Rose,Umberto Eco,0,,1
+CIV,CI,Ivory Coast,,,0,,0
+JAM,JM,Jamaica,,,0,,0
+JPN,JP,Japan,An Artist of the Floating World,Kazuo Ishiguro,0,,0
+JPN,JP,Japan,My Brother's Husband,Gengoroh Tagame,1,,0
+JPN,JP,Japan,Number9Dream,David Mitchell,1,,0
+,JE,Jersey,,,0,,0
+JOR,JO,Jordan,,,0,,0
+KAZ,KZ,Kazakhstan,,,0,,0
+KEN,KE,Kenya,A Grain of Wheat,Ngugi wa Thiong'o,0,,0
+KEN,KE,Kenya,Out of Africa,Isak Dinesen,0,,0
+KEN,KE,Kenya,The White Masai,Corinne Hofmann,1,,0
+KEN,KE,Kenya,When Stars are Scattered,Victoria Jamieson and Omar Mohamed,1,,0
+KEN,KE,Kenya,The Man-eaters of Tsavo,John Henry Patterson,1,,0
+KEN,KE,Kenya,One Day I Will Write About This Place: A Memoir,Binyavanga Wainaina,1,,0
+,KI,Kiribati,,,0,,0
+OSA,XK,Kosovo,,,0,,0
+KWT,KW,Kuwait,,,0,,0
+KGZ,KG,Kyrgyzstan,,,0,,0
+LAO,LA,Laos,,,0,,0
+LVA,LV,Latvia,,,0,,0
+LBN,LB,Lebanon,,,0,,0
+LSO,LS,Lesotho,,,0,,0
+LBR,LR,Liberia,Murder in the Cassava Patch,Bai T. Moore,1,,0
+LBY,LY,Libya,,,0,,0
+,LI,Liechtenstein,,,0,,0
+LTU,LT,Lithuania,,,0,,0
+LUX,LU,Luxembourg,,,0,,0
+,MO,Macao,,,0,,0
+MKD,MK,Macedonia,,,0,,0
+MDG,MG,Madagascar,,,0,,0
+MWI,MW,Malawi,,,0,,0
+MYS,MY,Malaysia,The Kampung Boy,Lat,1,,0
+MYS,MY,Malaysia,Town Boy,Lat,1,,0
+,MV,Maldives,,,0,,0
+MLI,ML,Mali,The Fortunes of Wangri,Amadou Hampâté Bâ,0,,0
+MLI,ML,Mali,Sidikiba's Kora Lesson,Ryan Thomas Skinner,1,children's book,0
+,MT,Malta,,,0,,0
+,MH,Marshall Islands,,,0,,0
+,MQ,Martinique,,,0,,0
+MRT,MR,Mauritania,,,0,,0
+,MU,Mauritius,,,0,,0
+,YT,Mayotte,,,0,,0
+MEX,MX,Mexico,The Pearl,John Steinbeck,1,,1
+,FM,Micronesia,,,0,,0
+MDA,MD,Moldova,,,0,,0
+,MC,Monaco,,,0,,0
+MNG,MN,Mongolia,,,0,,0
+MNE,ME,Montenegro,,,0,,0
+,MS,Montserrat,,,0,,0
+MAR,MA,Morocco,,,0,,0
+MOZ,MZ,Mozambique,Chronicler of the Winds,Henning Mankell,0,,0
+MMR,MM,Myanmar (Burma),,,0,,0
+NAM,NA,Namibia,,,0,,0
+,NR,Nauru,,,0,,0
+NPL,NP,Nepal,,,0,,0
+NLD,NL,Netherlands,The Diary of Anne Frank,Anne Frank,1,,0
+NCL,NC,New Caledonia,,,0,,0
+NZL,NZ,New Zealand,,,0,,0
+NIC,NI,Nicaragua,,,0,,0
+NER,NE,Niger,,,0,,0
+NGA,NG,Nigeria,Americanah,Chimamanda Ngozi Adichie,1,,0
+NGA,NG,Nigeria,Things Fall Apart,Chinua Achebe,1,,0
+NGA,NG,Nigeria,Lagos__2060,"Afolabi Muheez Ashiru, Okey Egboluche, Chiagozie Fred Nwonwu, Kofo Akib, Ayodele Arigbabu, Adebola Rayo, Terh Agbedeh, Temitayo Olofinlua, Curated by Ayodele Arigbabu, Illustrated by Ibrahim Ganiyu",0,have read partially,0
+NGA,NG,Nigeria,Egbon of Lagos: A Play,Akin Bello,0,,0
+,NU,Niue,,,0,,0
+,NF,Norfolk Island,,,0,,0
+PRK,KP,North Korea,The Orphan Master's Son ,Adam Johnson,0,,0
+PRK,KP,North Korea,Pyongyang: A Journey in North Korea,Guy Delisle,1,,0
+,MP,Northern Mariana Islands,,,0,,0
+NOR,NO,Norway,Sophie’s World,Jostein Gaardner,0,,0
+NOR,NO,Norway,"Through a Glass, Darkly",Jostein Gaardner,0,,0
+NOR,NO,Norway,Naïve. Super,Erlend Loe,0,book that inspired Mayor Pete to learn Norwegian (https://www.newyorker.com/books/page-turner/the-coming-of-age-tale-that-inspired-mayor-pete-to-learn-norwegian),0
+OMN,OM,Oman,,,0,,0
+PAK,PK,Pakistan,"Shabanu, Daughter of the Wind",Suzanne Fisher Staples,0,Ryan recommends,0
+,PW,Palau,,,0,,0
+,PS,Palestine,,,0,,0
+PAN,PA,Panama,,,0,,0
+PNG,PG,Papua New Guinea,"Savage Harvest: A Tale of Cannibals, Colonialism and Michael Rockefeller's Tragic Quest",Carl Hoffman,0,,0
+PRY,PY,Paraguay,,,0,,0
+PER,PE,Peru,Turn Right at Machu Picchu,Mark Adams,1,,0
+PHL,PH,Philippines,,,0,,0
+,PN,Pitcairn Islands,,,0,,0
+POL,PL,Poland,Almost English,Charlotte Mendelson,0,,0
+POL,PL,Poland,Night,Elie Wiesel,1,,0
+PRT,PT,Portugal,,,0,,0
+PRI,PR,Puerto Rico,,,0,,0
+QAT,QA,Qatar,,,0,,0
+COG,CG,Republic of the Congo,,,0,,0
+ROU,RO,Romania,,,0,,0
+RUS,RU,Russia,Fear No Evil ,Natan Sharansky,0,,0
+RUS,RU,Russia,Crime and Punishment,Fyodor Dostoevsky,0,,0
+RUS,RU,Russia,War and Peace,Leo Tolstoy,0,,0
+RUS,RU,Russia,Aleph,Paulo Coelho,1,,0
+RWA,RW,Rwanda,A Sunday at the Pool in Kigali,Gil Courtemanche,0,,0
+,RE,Réunion,,,0,,0
+,BL,Saint Barthélemy,,,0,,0
+,SH,Saint Helena,,,0,,0
+,KN,Saint Kitts and Nevis,,,0,,0
+,LC,Saint Lucia,,,0,,0
+,MF,Saint Martin,,,0,,0
+,PM,Saint Pierre and Miquelon,,,0,,0
+,VC,Saint Vincent and the Grenadines,,,0,,0
+,WS,Samoa,,,0,,0
+,SM,San Marino,,,0,,0
+SAU,SA,Saudi Arabia,A Hologram for the King,Dave Eggers,1,,0
+SEN,SN,Senegal,The Belly of the Atlantic,Fatou Diome,0,,0
+SRB,RS,Serbia,,,0,,0
+,SC,Seychelles,,,0,,0
+SLE,SL,Sierra Leone,A Long Way Gone: Memoirs of a Boy Soldier,Ishmael Beah,0,,0
+SGP,SG,Singapore,Kumar: From Rags to Drag,Kumarason "Kumar" Chinnadurai,0,,0
+,SX,Sint Maarten,,,0,,0
+SVK,SK,Slovakia,,,0,,0
+SVN,SI,Slovenia,,,0,,0
+SLB,SB,Solomon Islands,,,0,,0
+SOM,SO,Somalia,Desert Flower ,Waris Dirie,0,,0
+SOM,SO,Somalia,Hiding in Plain Sight,Nuruddin Farah,0,,0
+ZAF,ZA,South Africa,Cry The Beloved Country,Alan Paton,0,,0
+ZAF,ZA,South Africa,July's People,Nadine Gordimer,0,,0
+ZAF,ZA,South Africa,Born a Crime,Trevor Noah,1,,0
+ZAF,ZA,South Africa,Long Walk to Freedom,Nelson Mandela,0,,0
+,GS,South Georgia and the South Sandwich Islands,,,0,,0
+KOR,KR,South Korea,,,0,,0
+SDS,SS,South Sudan,What is the What,Dave Eggars,0,,0
+ESP,ES,Spain,The Savage Detectives,Roberto Bolano,0,,0
+ESP,ES,Spain,The Shadow of the Wind,Carlos Ruiz Zafon,0,,0
+ESP,ES,Spain,City of Marvels,Eduardo Mendoa,0,,0
+ESP,ES,Spain,Cold Skin,Albert Sanchez Pinol,0,,0
+ESP,ES,Spain,Soldiers of Salamis,Javier Cercas,0,,0
+ESP,ES,Spain,The Price of Paradise,Susana López Rubio,0,,0
+LKA,LK,Sri Lanka,,,0,,0
+SDN,SD,Sudan,Season of Migration to the North,Tayeb Salih,0,,0
+SUR,SR,Suriname,,,0,,0
+,SJ,Svalbard and Jan Mayen,,,0,,0
+SWZ,SZ,Swaziland,,,0,,0
+SWE,SE,Sweden,The Hundred Year Old Man Who Climbed Out of the Window and Disappeared,Jonas Jonasson,0,,0
+SWE,SE,Sweden,The Girl Who Saved the King of Sweden,Jonas Jonasson,0,,0
+CHE,CH,Switzerland,Swiss Watching: Inside the Land of Milk and Money,Diccon Bewes,0,,0
+CHE,CH,Switzerland,Stiller,Max Frisch,0,,0
+CHE,CH,Switzerland,Homo Faber,Max Frisch,0,,0
+SYR,SY,Syria,We Crossed a Bridge and it Trembled: Voices from Syria,Wendy Pearlman,0,,0
+,ST,São Tomé and Príncipe,,,0,,0
+TWN,TW,Taiwan,,,0,,0
+TJK,TJ,Tajikistan,,,0,,0
+TZA,TZ,Tanzania,By the Sea ,Abdulrazak Gurnah,0,,1
+TZA,TZ,Tanzania,Desertion,Abdulrazak Gurnah,0,,1
+TZA,TZ,Tanzania,The Magic of Saida ,M. G. Vassanji,0,,1
+THA,TH,Thailand,,,0,,0
+TGO,TG,Togo,,,0,,0
+,TK,Tokelau,,,0,,0
+,TO,Tonga,,,0,,0
+TTO,TT,Trinidad and Tobago,The Stars and the Blackness Between Them,Junauda Petrus,1,,0
+TUN,TN,Tunisia,,,0,,0
+TUR,TR,Turkey,My Name is Red ,Orhan Pamuk,0,,0
+TUR,TR,Turkey,The Girl in the Tree,Şebnem İşigüzel,0,,0
+TKM,TM,Turkmenistan,,,0,,0
+,TC,Turks and Caicos Islands,,,0,,0
+,TV,Tuvalu,,,0,,0
+,UM,U.S. Minor Outlying Islands,,,0,,0
+,VI,U.S. Virgin Islands,,,0,,0
+UGA,UG,Uganda,The Queen of Katwe,Tim Crothers,1,,0
+UKR,UA,Ukraine,Zakhar Berkut,Ivan Franko,0,,0
+,AE,United Arab Emirates,,,0,,0
+,GB,United Kingdom,,,0,,1
+USA,US,United States,Native Son,Richard Wright,1,,1
+USA,US,United States,To Kill a Mockingbird,Harper Lee,1,,1
+USA,US,United States,Parable of the Sower,Octavia E. Butler,1,,1
+USA,US,United States,American War,Omar El Akkad,1,,1
+URY,UY,Uruguay,,,0,,0
+UZB,UZ,Uzbekistan,,,0,,0
+VUT,VU,Vanuatu,,,0,,0
+,VA,Vatican City,,,0,,1
+VEN,VE,Venezuela,,,0,,0
+VNM,VN,Vietnam,Inside Out & Back Again,Thanhha Lai,1,mostly takes place in the U.S.,0
+,WF,Wallis and Futuna,,,0,,0
+ESH,EH,Western Sahara,,,0,,0
+YEM,YE,Yemen,,,0,,0
+ZMB,ZM,Zambia,,,0,,0
+ZWE,ZW,Zimbabwe,We Need New Names,NoViolet Bulawayo,0,,0
+ZWE,ZW,Zimbabwe,Nervous Conditions,Tsitsi Dangarembga,0,,0
+ZWE,ZW,Zimbabwe,The Hairdresser of Harare,Tendai Huchu,0,,0
+,AX,Åland,,,0,,0
