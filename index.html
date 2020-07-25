@@ -57,7 +57,7 @@
     .d3-tip.s:after {
       content: "\25B2";
       margin: 0 0 1px 0;
-      top: -8px;
+      top: 10%;/* was -8px */
       left: 0;
       text-align: center;
     }
@@ -91,10 +91,10 @@ var tip = d3.tip()
             .attr('class', 'd3-tip')
             .offset([-10, 0])
             .html(function(d) {
-              return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Population: </strong><span class='details'>" + format(d.population) +"</span>";
+              return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Book: </strong><span class='details'>" + format(d.book) +"</span>";
             })
 
-var margin = {top: 0, right: 0, bottom: 0, left: 0},
+var margin = {top: -250, right: 0, bottom: 0, left: 0},
             width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
@@ -121,50 +121,70 @@ svg.call(tip);
 
 queue()
     .defer(d3.json, "world_countries.json")
-    .defer(d3.tsv, "world_population.tsv")
+    /*.defer(d3.tsv, "world_population.tsv")*/
+    .defer(d3.csv, "read_the_world.csv")
     .await(ready);
 
-function ready(error, data, population) {
-  var populationById = {};
+function ready(error, data, book_list) {
+  console.log(book_list);
+  var bookList = {};
+  var colors = {};
+    var countries_and_codes = {};
 
-  population.forEach(function(d) { populationById[d.id] = +d.population; });
-  data.features.forEach(function(d) { d.population = populationById[d.id] });
+  book_list.forEach(function(d) {
+    if (d.Read == 1) {
+        bookList[d.Code] = "<em>" + d.Book + "</em>, by " + d.Author;
+        colors[d.Code] = 1;
+        /* this works: */
+        console.log("I've read " + bookList[d.Code] + " from " + d.Country);
+    }
+  });
+  /* this also works: */
+  /*console.log(bookList);*/
 
+  data.features.forEach(function(d) { d.book = book_list[d.id] });
+    
+ //console.log(data);
+ data.features.forEach(d => console.log(d.id + " "  + d.properties.name));
+ console.log(countries_and_codes);
+
+  /* draw countries */
   svg.append("g")
       .attr("class", "countries")
     .selectAll("path")
       .data(data.features)
+    
     .enter().append("path")
       .attr("d", path)
-      .style("fill", function(d) { return color(populationById[d.id]); })
+      .style("fill", function(d) { return color(colors[d.id]); })
       .style('stroke', 'white')
       .style('stroke-width', 1.5)
       .style("opacity",0.8)
+    
       // tooltips
-        .style("stroke","white")
-        .style('stroke-width', 0.3)
-        .on('mouseover',function(d){
-          tip.show(d);
+      .style("stroke","white")
+      .style('stroke-width', 0.3)
+      .on('mouseover',function(d){
+        tip.show(d);
 
-          d3.select(this)
-            .style("opacity", 1)
-            .style("stroke","white")
-            .style("stroke-width",3);
-        })
-        .on('mouseout', function(d){
-          tip.hide(d);
+        d3.select(this)
+          .style("opacity", 1)
+          .style("stroke","white")
+          .style("stroke-width",3);
+      })
+      .on('mouseout', function(d){
+        tip.hide(d);
 
-          d3.select(this)
-            .style("opacity", 0.8)
-            .style("stroke","white")
-            .style("stroke-width",0.3);
-        });
+        d3.select(this)
+          .style("opacity", 0.8)
+          .style("stroke","white")
+          .style("stroke-width",0.3);
+      });
 
   svg.append("path")
-      .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
-       // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
-      .attr("class", "names")
-      .attr("d", path);
+     .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
+     .attr("class", "names")
+     .attr("d", path);
 }
 
 </script>
