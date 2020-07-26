@@ -18,6 +18,8 @@ I welcome you to add it.
 The map is available at http://paulkaefer.com/read-the-world/.
 
 ## My todos
+* also have a table generated (basically .csv contents) so every country is visible
+** maybe hidden table by default?
 * better visuals? (color scheme/hover)
 * more information, such as links to the books?
 * read countries_visited.csv and join, rather than having a column with duplication in the reading list
