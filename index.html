@@ -200,6 +200,8 @@ function ready(error, data, book_list) {
  /*data.features.forEach(d => console.log(d.id + " "  + d.properties.name));
  console.log(countries_and_codes);*/
     
+    svg.append("text").attr("x", 250).attr("y", 25).text("Hover for country names and books!").style("font-size", "20px").style("font-family", "Helvetica").style("opacity", "0.5").attr("alignment-baseline","middle")
+    
     svg.append("circle").attr("cx",20).attr("cy",30).attr("r", 6).style("fill", "#FF0000")
     svg.append("circle").attr("cx",20).attr("cy",60).attr("r", 6).style("fill", "#0000FF")
     svg.append("circle").attr("cx",20).attr("cy",90).attr("r", 6).style("fill", "#800080")
