@@ -15,7 +15,7 @@ If you do use this, I welcome you to link back to this repo (or my website, link
 Note that not every country/territory/entity has GeoJSON;
 I welcome you to add it.
 
-The map is available at http://paulkaefer.com/read-the-world/.
+The map is available at [paulkaefer.com/read-the-world](http://paulkaefer.com/read-the-world/).
 
 ## My todos
 * also have a table generated (basically .csv contents) so every country is visible
