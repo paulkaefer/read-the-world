@@ -18,6 +18,8 @@ I welcome you to add it.
 The map is available at [paulkaefer.com/read-the-world](http://paulkaefer.com/read-the-world/).
 
 ## My todos
+* generated .SVG as file output? esp. if a way to embed the text (books)
+  * then, use *that* as og:image? or a .png version, if easy enough to do automatically?
 * explore other map projections
 * better visuals? (color scheme/hover)
 * more information, such as links to the books?
