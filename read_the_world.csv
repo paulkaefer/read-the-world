@@ -1,7 +1,7 @@
 id,TwoLetterCode,Country,Book,Author,Read,Notes,visited_country
 AFG,AF,Afghanistan,The Little Coffee Shop of Kabul,Deborah Rodriguez,0,,0
 AFG,AF,Afghanistan,And the Mountains Echoed,Khaled Hosseini,0,,0
-AFG,AF,Afghanistan,A Thousand Splendid Suns,Khaled Hosseini,0,,0
+AFG,AF,Afghanistan,A Thousand Splendid Suns,Khaled Hosseini,0,I have a copy,0
 AFG,AF,Afghanistan,The Kite Runner,Khaled Hosseini,1,,0
 ALB,AL,Albania,,,0,,0
 DZA,DZ,Algeria,,,0,,0
@@ -9,7 +9,7 @@ DZA,DZ,Algeria,,,0,,0
 ,AD,Andorra,,,0,,0
 AGO,AO,Angola,,,0,,0
 ,AI,Anguilla,,,0,,0
-ATA,AQ,Antarctica,Lost in the Antarctic: The Doomed Voyage of the Endurance,Tod Olson,0,,0
+ATA,AQ,Antarctica,Lost in the Antarctic: The Doomed Voyage of the Endurance,Tod Olson,0,I have a copy (thanks to a Little Free Library!),0
 ,AG,Antigua and Barbuda,,,0,,0
 ARG,AR,Argentina,Out of the Silence: After the Crash,Eduardo Strauch with Mireya Soriano,0,,0
 ARM,AM,Armenia,The 40 days of Musa Dagh,Franz Werfel,0,,0
@@ -50,7 +50,7 @@ CAF,CF,Central African Republic,,,0,,0
 TCD,TD,Chad,,,0,,0
 CHL,CL,Chile,The House of the Spirits,Isabel Allende,0,,0
 CHL,CL,Chile,The Remainder,Alia Trabucco Zerán,0,recommended by Taylor B. on Facebook,0
-CHL,CL,Chile,Travels in a Thin Country: A Journey through Chile,Sara Wheeler,0,,0
+CHL,CL,Chile,Travels in a Thin Country: A Journey through Chile,Sara Wheeler,0,I have a copy (thanks to a Little Free Library!),0
 CHN,CN,China,Wild Swans: Three Daughters of China,Jung Chang,0,,0
 CHN,CN,China,Life,Lu Yao,0,,0
 ,CX,Christmas Island,,,0,,0
@@ -60,18 +60,18 @@ COL,CO,Colombia,,,0,,0
 ,CK,Cook Islands,,,0,,0
 CRI,CR,Costa Rica,,,0,,0
 HRV,HR,Croatia,,,0,,0
-CUB,CU,Cuba,Love in the Time of Cholera,Gael Garcia Maquez,0,,0
+CUB,CU,Cuba,Love in the Time of Cholera,Gael Garcia Maquez,0,I have a copy,0
 ,CW,Curacao,,,0,,0
 CYP,CY,Cyprus,,,0,,0
 CZE,CZ,Czech Republic,The Unbearable Lightness of Being,Milan Kundera,0,,0
 CZE,CZ,Czech Republic,The Affliction of Praha,Simon Gillard,0,murder mystery set in 1920s Czechoslovakia,0
-COD,CD,Democratic Republic of the Congo,Blood River ,Tim Butcher,0,,0
+COD,CD,Democratic Republic of the Congo,Blood River,Tim Butcher,0,,0
 COD,CD,Democratic Republic of the Congo,The Poisonwood Bible,Barbara Kingsolver,1,,0
 COD,CD,Democratic Republic of the Congo,Congo: The Epic History of a People,David van Reybrouck,0,,0
 DNK,DK,Denmark,,,0,,0
 DJI,DJ,Djibouti,,,0,,0
 ,DM,Dominica,,,0,,0
-DOM,DO,Dominican Republic,The Life of Oscar Wao,Junot Diaz,0,,0
+DOM,DO,Dominican Republic,The Brief Wondrous Life of Oscar Wao,Junot Diaz,0,I have a copy,0
 TLS,TL,East Timor,Beloved Land,Gordon Peake,0,,0
 ECU,EC,Ecuador,,,0,,0
 EGY,EG,Egypt,The Yacoubian Building,Alaa Al Aswany,0,,0
@@ -79,7 +79,7 @@ SLV,SV,El Salvador,,,0,,0
 ,GQ,Equatorial Guinea,,,0,,0
 ERI,ER,Eritrea,,,0,,0
 EST,EE,Estonia,,,0,,0
-ETH,ET,Ethiopia,Cutting for Stone ,Abraham Verghese,0,,0
+ETH,ET,Ethiopia,Cutting for Stone,Abraham Verghese,0,,0
 FLK,FK,Falkland Islands,,,0,,0
 ,FO,Faroe Islands,Far Afield,Susanna Kaysen,0,,0
 FJI,FJ,Fiji,,,0,,0
@@ -130,7 +130,7 @@ IRN,IR,Iran,Persepolis,Marjane Satrapi,1,,0
 IRQ,IQ,Iraq,Pride of Baghdad,Brian K. Vaughan and Niko Henrichon,1,,0
 IRL,IE,Ireland,The Field,John B. Keane,1,,1
 IRL,IE,Ireland,Sive,John B. Keane,1,,1
-IRL,IE,Ireland,An tOileánach (The Islandman),Tomás Ó Criomhthain,0,,1
+IRL,IE,Ireland,An tOileánach (The Islandman),Tomás Ó Criomhthain,0,I own a copy,1
 ,IM,Isle of Man,,,0,,0
 ISR,IL,Israel,Apeirogon,Colum McCann,0,Rachael W. recommends,0
 ISR,IL,Israel,The First Mrs. Rothschild,Sara Aharoni,0,,0
@@ -199,11 +199,11 @@ NIC,NI,Nicaragua,,,0,,0
 NER,NE,Niger,,,0,,0
 NGA,NG,Nigeria,Americanah,Chimamanda Ngozi Adichie,1,,0
 NGA,NG,Nigeria,Things Fall Apart,Chinua Achebe,1,,0
-NGA,NG,Nigeria,Lagos__2060,"Afolabi Muheez Ashiru, Okey Egboluche, Chiagozie Fred Nwonwu, Kofo Akib, Ayodele Arigbabu, Adebola Rayo, Terh Agbedeh, Temitayo Olofinlua, Curated by Ayodele Arigbabu, Illustrated by Ibrahim Ganiyu",0,have read partially,0
+NGA,NG,Nigeria,Lagos__2060,"Afolabi Muheez Ashiru, Okey Egboluche, Chiagozie Fred Nwonwu, Kofo Akib, Ayodele Arigbabu, Adebola Rayo, Terh Agbedeh, Temitayo Olofinlua, Curated by Ayodele Arigbabu, Illustrated by Ibrahim Ganiyu",0,have read partially; see https://unglue.it/work/128685/,0
 NGA,NG,Nigeria,Egbon of Lagos: A Play,Akin Bello,0,,0
 ,NU,Niue,,,0,,0
 ,NF,Norfolk Island,,,0,,0
-PRK,KP,North Korea,The Orphan Master's Son ,Adam Johnson,0,,0
+PRK,KP,North Korea,The Orphan Master's Son,Adam Johnson,0,,0
 PRK,KP,North Korea,Pyongyang: A Journey in North Korea,Guy Delisle,1,,0
 ,MP,Northern Mariana Islands,,,0,,0
 NOR,NO,Norway,Sophie’s World,Jostein Gaardner,0,,0
@@ -231,6 +231,7 @@ RUS,RU,Russia,Crime and Punishment,Fyodor Dostoevsky,0,,0
 RUS,RU,Russia,War and Peace,Leo Tolstoy,0,,0
 RUS,RU,Russia,Aleph,Paulo Coelho,1,,0
 RWA,RW,Rwanda,A Sunday at the Pool in Kigali,Gil Courtemanche,0,,0
+RWA,RW,Rwanda,Baking Cakes in Kigali,Gaile Parkin,0,recommended by Lina,0
 ,RE,Réunion,,,0,,0
 ,BL,Saint Barthélemy,,,0,,0
 ,SH,Saint Helena,,,0,,0
@@ -251,7 +252,7 @@ SGP,SG,Singapore,Kumar: From Rags to Drag,Kumarason Chinnadurai,0,,0
 SVK,SK,Slovakia,,,0,,0
 SVN,SI,Slovenia,,,0,,0
 SLB,SB,Solomon Islands,,,0,,0
-SOM,SO,Somalia,Desert Flower ,Waris Dirie,0,,0
+SOM,SO,Somalia,Desert Flower,Waris Dirie,0,,0
 SOM,SO,Somalia,Hiding in Plain Sight,Nuruddin Farah,0,,0
 ABV,SO,Somaliland,,,0,,0
 ZAF,ZA,South Africa,Cry The Beloved Country,Alan Paton,0,,0
@@ -290,7 +291,7 @@ TGO,TG,Togo,,,0,,0
 ,TO,Tonga,,,0,,0
 TTO,TT,Trinidad and Tobago,The Stars and the Blackness Between Them,Junauda Petrus,1,,0
 TUN,TN,Tunisia,,,0,,0
-TUR,TR,Turkey,My Name is Red ,Orhan Pamuk,0,,0
+TUR,TR,Turkey,My Name is Red,Orhan Pamuk,0,,0
 TUR,TR,Turkey,The Girl in the Tree,Şebnem İşigüzel,0,,0
 TUR,TR,Turkey,The Architect's Apprentice,Elif Shafak,0,Stephanie recommended by way of recommending the cover artist (https://www.jayamiceli.com/),0
 TKM,TM,Turkmenistan,,,0,,0
