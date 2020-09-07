@@ -2,7 +2,7 @@
 I would like to read at least one book from every country in the world. 
 Reading expands our horizons and [builds empathy](https://www.theguardian.com/books/2013/oct/15/neil-gaiman-future-libraries-reading-daydreaming).
 
-Ideally, the book is written by an author from the country, and at least partly takes place in the country. As the friend who inspired me to read the world suggests, the books that everyone reads during secondary school are great for this journey.
+Ideally, the book is written by an author from the country, and at least partly takes place in the country. As the friend who inspired me to read the world suggests, the books that everyone reads during secondary school are great for this journey. I also really like graphic novels, as might be apparent.
 
 I welcome your reading suggestions or ideas for improvement. Feel free to [open an issue](https://github.com/paulkaefer/read-the-world/issues)
 or submit a [pull request](https://github.com/paulkaefer/read-the-world/pulls).
