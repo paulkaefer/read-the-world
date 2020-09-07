@@ -27,6 +27,7 @@ The map is available at [paulkaefer.com/read-the-world](http://paulkaefer.com/re
 * read countries_visited.csv and join, rather than having a column with duplication in the reading list
 * add a content warning/trigger warning? perhaps, if there is interest
   * In the meantime, feel free to [open a ticket](https://github.com/paulkaefer/read-the-world/issues) if interested in general or for a specific book(s), or have suggestions of warnings
+* some books, like *A Mission to Cook*, are multiple countries (in that case, Guatemala + USA). Likewise, I've read *American Born Chinese*, which I chose not to list under China here. But I could have a third table for such works?
 
 ## Acknowledgements
 Thanks to Lauren DG for inspiring me to read more books from around the world, Ann Morgan for her fabulous [TED talk](http://www.ted.com/talks/ann_morgan_my_year_reading_a_book_from_every_country_in_the_world) and [website](https://ayearofreadingtheworld.com/thelist/), and to Micah Stubbs for [this D3 map code](http://bl.ocks.org/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f).
