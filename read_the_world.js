@@ -50,9 +50,9 @@ var path = d3.geoPath().projection(projection);
 svg.call(tip);
 
 queue()
-    .defer(d3.json, "world_countries.json")
+    .defer(d3.json, "data/world_countries.json")
     /*.defer(d3.tsv, "world_population.tsv")*/
-    .defer(d3.csv, "read_the_world.csv")
+    .defer(d3.csv, "data/read_the_world.csv")
     .await(ready);
 
 function ready(error, data, book_list) {
