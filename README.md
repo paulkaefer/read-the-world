@@ -21,6 +21,7 @@ The map is available at [paulkaefer.com/read-the-world](http://paulkaefer.com/re
 * generated .SVG as file output? esp. if a way to embed the text (books)
   * then, use *that* as og:image? or a .png version, if easy enough to do automatically?
   * how about as a function (call via JS console), so we don't repeatedly overwrite a file on the server...
+* incorporate flag emoji somehow?
 * explore other map projections
 * better visuals? (color scheme/hover)
 * more information, such as links to the books?
