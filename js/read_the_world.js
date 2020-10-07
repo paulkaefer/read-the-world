@@ -97,6 +97,9 @@ function ready(error, data, book_list) {
 
         var cell = row.append("td");
         cell.text(d.Author);
+
+        var cell = row.append("td");
+        cell.text(d.Notes);
     } else {
         /* only append a row if a book is found: */
         if (d.Book) {
