@@ -17,7 +17,7 @@ I welcome you to add it.
 
 The map is available at [paulkaefer.com/read-the-world](http://paulkaefer.com/read-the-world/).
 
-### Uses
+### Potential uses
 * You may want to track books you've read. Or films you've watched, albums you've listened to, etc.
 * You may want to learn the capitals or flags of each country, or how to say "hello" in the official language(s) of each country.
 * You may simply want to track travels.
@@ -28,7 +28,7 @@ The map is available at [paulkaefer.com/read-the-world](http://paulkaefer.com/re
   * then, use *that* as og:image? or a .png version, if easy enough to do automatically?
   * how about as a function (call via JS console), so we don't repeatedly overwrite a file on the server...
 * incorporate flag emoji somehow?
-* see "Uses" above... might find a way to incorporate (i.e., link to) similar projects
+* see "Potential uses" above... might find a way to incorporate (i.e., link to) similar projects
 * explore other map projections
 * better visuals? (color scheme/hover)
 * more information, such as links to the books?
