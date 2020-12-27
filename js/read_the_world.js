@@ -63,6 +63,10 @@ function ready(error, data, book_list) {
   var completed_table = d3.select("#completed-table");
   var recommendations_table = d3.select("#recommendations-table");
 
+  /* TODO: need to ensure countries not double-counted... */
+  var countries_read = 0;
+  var countries_visited = 0;
+
   book_list.forEach(function(d) {
     /* hacky, but ensure colors are initialized by country;
        in the case of having read multiple books, I want the "max" color to persist */
@@ -210,3 +214,4 @@ function collapse_table1() {
     d3.select("#expand1").style("display", "");
     d3.select("#table1").style("display", "none");
 }
+
