@@ -54,6 +54,8 @@ queue()
     .defer(d3.csv, "data/read_the_world.csv")
     .await(ready);
 
+/* makes it easier to save a variable for viewing in the console.
+   See below for assignment example(s). */
 debug = {};
 
 function ready(error, data, book_list) {
@@ -144,32 +146,34 @@ function ready(error, data, book_list) {
             countries_visited[d.Country] = 1;
         }
     }
+      
+    //debug = book_list;
   });
   /* this also works: */
   /*console.log(bookList);*/
 
   data.features.forEach(function(d) { d.book = bookList[d.id] });
 
- /*console.log(data);*/
+  //debug = data;
+  /*console.log(data);*/
 
-    // for adding three-digit codes to csv:
- /*data.features.forEach(d => console.log(d.id + " "  + d.properties.name));
- console.log(countries_and_codes);*/
+  // for adding three-digit codes to csv:
+  /*data.features.forEach(d => console.log(d.id + " "  + d.properties.name)); console.log(countries_and_codes);*/
 
-    /*svg.append("text").attr("x", 250).attr("y", 25).text("Hover for country names and books!").style("font-size", "20px").style("font-family", "Helvetica").style("opacity", "0.5").attr("alignment-baseline","middle")*/
-    
-    total_countries_read = Object.keys(countries_read).length;
-    total_countries_visited = Object.keys(countries_visited).length;
+  /*svg.append("text").attr("x", 250).attr("y", 25).text("Hover for country names and books!").style("font-size", "20px").style("font-family", "Helvetica").style("opacity", "0.5").attr("alignment-baseline","middle")*/
 
-    svg.append("circle").attr("cx",20).attr("cy",30).attr("r", 6).style("fill", "#FF0000")
-    svg.append("circle").attr("cx",20).attr("cy",60).attr("r", 6).style("fill", "#0000FF")
-    svg.append("circle").attr("cx",20).attr("cy",90).attr("r", 6).style("fill", "#800080")
-    svg.append("text").attr("x", 40).attr("y", 30).text("Read a book").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-    svg.append("text").attr("x", 40).attr("y", 60).text("Visited the country").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-    svg.append("text").attr("x", 40).attr("y", 90).text("Both").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-    
-    svg.append("text").attr("x", 700).attr("y", 30).text(`${total_countries_read} countries read`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-    svg.append("text").attr("x", 700).attr("y", 60).text(`${total_countries_visited} countries visited`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  total_countries_read = Object.keys(countries_read).length;
+  total_countries_visited = Object.keys(countries_visited).length;
+
+  svg.append("circle").attr("cx",20).attr("cy",30).attr("r", 6).style("fill", "#FF0000")
+  svg.append("circle").attr("cx",20).attr("cy",60).attr("r", 6).style("fill", "#0000FF")
+  svg.append("circle").attr("cx",20).attr("cy",90).attr("r", 6).style("fill", "#800080")
+  svg.append("text").attr("x", 40).attr("y", 30).text("Read a book").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 40).attr("y", 60).text("Visited the country").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 40).attr("y", 90).text("Both").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+
+  svg.append("text").attr("x", 700).attr("y", 30).text(`${total_countries_read} countries read`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 700).attr("y", 60).text(`${total_countries_visited} countries visited`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
 
   /* draw countries */
   svg.append("g")
