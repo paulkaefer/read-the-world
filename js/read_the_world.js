@@ -54,6 +54,8 @@ queue()
     .defer(d3.csv, "data/read_the_world.csv")
     .await(ready);
 
+debug = {};
+
 function ready(error, data, book_list) {
   //console.log(book_list);
   var bookList = {};
@@ -63,9 +65,10 @@ function ready(error, data, book_list) {
   var completed_table = d3.select("#completed-table");
   var recommendations_table = d3.select("#recommendations-table");
 
-  /* TODO: need to ensure countries not double-counted... */
-  var countries_read = 0;
-  var countries_visited = 0;
+  /* need to ensure countries not double-counted */
+  /* a dictionary could also be useful for other purposes */
+  var countries_read = {};
+  var countries_visited = {};
 
   book_list.forEach(function(d) {
     /* hacky, but ensure colors are initialized by country;
@@ -87,8 +90,13 @@ function ready(error, data, book_list) {
             /* red since I "read" the book */
             colors[d.id] = Math.max(1, colors[d.id]);
         }
-        /* this works: */
+        /* debugging: */
         //console.log("I've read " + bookList[d.id] + " from " + d.Country);
+        
+        /* add dictionary entry for each unique country read */
+        if (countries_read[d.Country] == null) {
+            countries_read[d.Country] = 1;
+        }
 
         var row = completed_table.append("tr");
 
@@ -129,6 +137,13 @@ function ready(error, data, book_list) {
         /* blue */
         colors[d.id] = Math.max(2, colors[d.id]);
     }
+
+    /* if I've visited the country at all, add to the dictionary */
+    if (d.visited_country == 1) {
+        if (countries_visited[d.Country] == null) {
+            countries_visited[d.Country] = 1;
+        }
+    }
   });
   /* this also works: */
   /*console.log(bookList);*/
@@ -142,6 +157,9 @@ function ready(error, data, book_list) {
  console.log(countries_and_codes);*/
 
     /*svg.append("text").attr("x", 250).attr("y", 25).text("Hover for country names and books!").style("font-size", "20px").style("font-family", "Helvetica").style("opacity", "0.5").attr("alignment-baseline","middle")*/
+    
+    total_countries_read = Object.keys(countries_read).length;
+    total_countries_visited = Object.keys(countries_visited).length;
 
     svg.append("circle").attr("cx",20).attr("cy",30).attr("r", 6).style("fill", "#FF0000")
     svg.append("circle").attr("cx",20).attr("cy",60).attr("r", 6).style("fill", "#0000FF")
@@ -149,6 +167,9 @@ function ready(error, data, book_list) {
     svg.append("text").attr("x", 40).attr("y", 30).text("Read a book").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
     svg.append("text").attr("x", 40).attr("y", 60).text("Visited the country").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
     svg.append("text").attr("x", 40).attr("y", 90).text("Both").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+    
+    svg.append("text").attr("x", 700).attr("y", 30).text(`${total_countries_read} countries read`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+    svg.append("text").attr("x", 700).attr("y", 60).text(`${total_countries_visited} countries visited`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
 
   /* draw countries */
   svg.append("g")
