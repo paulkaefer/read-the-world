@@ -66,11 +66,15 @@ function ready(error, data, book_list) {
 
   var completed_table = d3.select("#completed-table");
   var recommendations_table = d3.select("#recommendations-table");
+    
+  var completed_count = 0;
+  var queue_count = 0;
 
   /* need to ensure countries not double-counted */
   /* a dictionary could also be useful for other purposes */
   var countries_read = {};
   var countries_visited = {};
+  var read_and_visited = {};
 
   book_list.forEach(function(d) {
     /* hacky, but ensure colors are initialized by country;
@@ -84,10 +88,16 @@ function ready(error, data, book_list) {
 
     if (d.Read == 1) {
         bookList[d.id] += "&bull; <em>" + d.Book + "</em>, by " + d.Author + "<br>";
+        completed_count++;
 
         if (d.visited_country == 1) {
             /* purple: red + blue */
             colors[d.id] = Math.max(3, colors[d.id]);
+            
+            /* add dictionary entry for countries both visited & read */
+            if (read_and_visited[d.Country] == null) {
+                read_and_visited[d.Country] = 1;
+            }
         } else {
             /* red since I "read" the book */
             colors[d.id] = Math.max(1, colors[d.id]);
@@ -115,8 +125,10 @@ function ready(error, data, book_list) {
         var cell = row.append("td");
         cell.text(d.Notes);
     } else {
-        /* only append a row if a book is found: */
+        /* only append a row to the reading queue if a book is found: */
         if (d.Book) {
+            queue_count++;
+            
             var row = recommendations_table.append("tr");
 
             var cell = row.append("td");
@@ -164,6 +176,11 @@ function ready(error, data, book_list) {
 
   total_countries_read = Object.keys(countries_read).length;
   total_countries_visited = Object.keys(countries_visited).length;
+  total_with_both = Object.keys(read_and_visited).length;
+    
+  // update the counts in the table headers:
+  d3.select("#completed-count").text(`Books I've completed reading (${completed_count} total books):`);
+  d3.select("#queue-count").text(`In my reading queue (${queue_count} total books):`);
 
   svg.append("circle").attr("cx",20).attr("cy",30).attr("r", 6).style("fill", "#FF0000")
   svg.append("circle").attr("cx",20).attr("cy",60).attr("r", 6).style("fill", "#0000FF")
@@ -174,6 +191,7 @@ function ready(error, data, book_list) {
 
   svg.append("text").attr("x", 700).attr("y", 30).text(`${total_countries_read} countries read`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
   svg.append("text").attr("x", 700).attr("y", 60).text(`${total_countries_visited} countries visited`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 700).attr("y", 90).text(`${total_with_both} overlap`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
 
   /* draw countries */
   svg.append("g")
@@ -214,29 +232,29 @@ function ready(error, data, book_list) {
      .attr("d", path);
 }
 
-function expand_table0() {
+function expand_completed_table() {
     /*d3.select("#expand0").remove();*/
 
-    d3.select("#header0").style("display", "");
-    d3.select("#expand0").style("display", "none");
+    d3.select("#collapse_completed_table").style("display", "");
+    d3.select("#expand_completed_table").style("display", "none");
     d3.select("#table0").style("display", "");
 }
 
-function expand_table1() {
-    d3.select("#header1").style("display", "");
-    d3.select("#expand1").style("display", "none");
+function expand_reading_queue() {
+    d3.select("#collapse_reading_queue").style("display", "");
+    d3.select("#expand_reading_queue").style("display", "none");
     d3.select("#table1").style("display", "");
 }
 
-function collapse_table0() {
-    d3.select("#header0").style("display", "none");
-    d3.select("#expand0").style("display", "");
+function collapse_completed_table() {
+    d3.select("#collapse_completed_table").style("display", "none");
+    d3.select("#expand_completed_table").style("display", "");
     d3.select("#table0").style("display", "none");
 }
 
-function collapse_table1() {
-    d3.select("#header1").style("display", "none");
-    d3.select("#expand1").style("display", "");
+function collapse_reading_queue() {
+    d3.select("#collapse_reading_queue").style("display", "none");
+    d3.select("#expand_reading_queue").style("display", "");
     d3.select("#table1").style("display", "none");
 }
 
