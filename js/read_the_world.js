@@ -185,13 +185,9 @@ function ready(error, data, book_list) {
   svg.append("circle").attr("cx",20).attr("cy",30).attr("r", 6).style("fill", "#FF0000")
   svg.append("circle").attr("cx",20).attr("cy",60).attr("r", 6).style("fill", "#0000FF")
   svg.append("circle").attr("cx",20).attr("cy",90).attr("r", 6).style("fill", "#800080")
-  svg.append("text").attr("x", 40).attr("y", 30).text("Read a book").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-  svg.append("text").attr("x", 40).attr("y", 60).text("Visited the country").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-  svg.append("text").attr("x", 40).attr("y", 90).text("Both").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-
-  svg.append("text").attr("x", 700).attr("y", 30).text(`${total_countries_read} countries read`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-  svg.append("text").attr("x", 700).attr("y", 60).text(`${total_countries_visited} countries visited`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-  svg.append("text").attr("x", 700).attr("y", 90).text(`${total_with_both} overlap`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 40).attr("y", 30).text(`Read a book (${total_countries_read} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 40).attr("y", 60).text(`Visited the country (${total_countries_visited} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 40).attr("y", 90).text(`Both (${total_with_both} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
 
   /* draw countries */
   svg.append("g")
