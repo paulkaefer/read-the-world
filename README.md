@@ -2,10 +2,10 @@
 I would like to read at least one book from/about/taking place in every country in the world. 
 Reading expands our horizons and [builds empathy](https://www.theguardian.com/books/2013/oct/15/neil-gaiman-future-libraries-reading-daydreaming).
 
-Ideally, the book is written by an author from the country, and at least partly takes place in the country. As the friend who inspired me to read the world suggests, the books that "everyone" reads during junior high or secondary school in a given country are great for this journey. I also really like graphic novels, as might be apparent.
+Ideally, the book is written by an author from the country, and at least partly takes place in the country. As the friend who inspired me to read the world suggests, the books that "everyone" reads during junior high or secondary school in a given country are great for this journey.
 
 I welcome your reading suggestions or ideas for improvement. Feel free to [open an issue](https://github.com/paulkaefer/read-the-world/issues)
-or submit a [pull request](https://github.com/paulkaefer/read-the-world/pulls).
+or submit a [pull request](https://github.com/paulkaefer/read-the-world/pulls). Bonus points for graphic novels and queer literature. I am also open to reading novellas and plays. I won't necessarily track short stories on the website, but I will track collections of short stories, as well as children's books.
 
 ## Using and contributing
 I released this under a Creative Commons license,
