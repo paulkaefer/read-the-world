@@ -19,8 +19,19 @@ var tip = d3.tip()
             .attr('class', 'd3-tip')
             .offset([-10, 0])
             .html(function(d) {
-              return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Book(s): </strong><span class='details'>" + d.book +"</span>";
-            })
+              var tooltip_message = "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Book(s): </strong><span class='details'>" + d.book +"</span>";
+              //console.log(tooltip_message);
+              return tooltip_message;
+            });
+
+// for honorable mentions:
+var box_tip = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0])
+            .html(function(d) {
+              console.log(d);
+              return "<div style='color:white'>" + d + "</div>";
+            });
 
 var margin = {top: -250, right: 0, bottom: 0, left: 100},
             width = 960 - margin.left - margin.right,
@@ -48,6 +59,7 @@ var projection = d3.geoMercator()
 var path = d3.geoPath().projection(projection);
 
 svg.call(tip);
+svg.call(box_tip);
 
 queue()
     .defer(d3.json, "data/world_countries.json")
@@ -61,6 +73,7 @@ debug = {};
 function ready(error, data, book_list) {
   //console.log(book_list);
   var bookList = {};
+  var honorable_mentions = "";
   var colors = {};
   var countries_and_codes = {};
 
@@ -86,7 +99,10 @@ function ready(error, data, book_list) {
         bookList[d.id] = "";
     }
 
-    if (d.Read == 1) {
+    if (d.id == "ZZZ") {
+        honorable_mentions += "&bull; <em>" + d.Book + "</em>, " + d.Author + " (" + d.Notes + ")<br>";
+        //console.log(honorable_mentions);
+    } else if (d.Read == 1) {
         bookList[d.id] += "&bull; <em>" + d.Book + "</em>, by " + d.Author + "<br>";
         completed_count++;
 
@@ -146,7 +162,6 @@ function ready(error, data, book_list) {
         }
     }
 
-
     if ((d.Read == 0) && (d.visited_country == 1)) {
         /* blue */
         colors[d.id] = Math.max(2, colors[d.id]);
@@ -163,6 +178,7 @@ function ready(error, data, book_list) {
   });
   /* this also works: */
   /*console.log(bookList);*/
+  /*console.log(honorable_mentions);*/
 
   data.features.forEach(function(d) { d.book = bookList[d.id] });
 
@@ -182,12 +198,30 @@ function ready(error, data, book_list) {
   d3.select("#completed-count").text(`Books I've completed reading (${completed_count} total books):`);
   d3.select("#queue-count").text(`In my reading queue (${queue_count} total books):`);
 
-  svg.append("circle").attr("cx",20).attr("cy",30).attr("r", 6).style("fill", "#FF0000")
-  svg.append("circle").attr("cx",20).attr("cy",60).attr("r", 6).style("fill", "#0000FF")
-  svg.append("circle").attr("cx",20).attr("cy",90).attr("r", 6).style("fill", "#800080")
-  svg.append("text").attr("x", 40).attr("y", 30).text(`Read a book (${total_countries_read} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-  svg.append("text").attr("x", 40).attr("y", 60).text(`Visited the country (${total_countries_visited} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
-  svg.append("text").attr("x", 40).attr("y", 90).text(`Both (${total_with_both} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline","middle")
+  // read; visited; both
+  svg.append("circle").attr("cx", 20).attr("cy", 30).attr("r", 6).style("fill", "#FF0000")
+  svg.append("circle").attr("cx", 20).attr("cy", 60).attr("r", 6).style("fill", "#0000FF")
+  svg.append("circle").attr("cx", 20).attr("cy", 90).attr("r", 6).style("fill", "#800080")
+  svg.append("text").attr("x", 40).attr("y", 30)
+     .text(`Read a book (${total_countries_read} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle")
+  svg.append("text").attr("x", 40).attr("y", 60)
+     .text(`Visited the country (${total_countries_visited} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle")
+  svg.append("text").attr("x", 40).attr("y", 90)
+     .text(`Both (${total_with_both} countries)`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle")
+    
+  svg.append("rect").attr("class", "honorable-mentions-box")
+     .attr("x", 650).attr("y", 30).attr("width", 150).attr("height", 65)
+     // forest green:
+     .style("fill", "#228B22")
+     .on('mouseover', function(d) {
+        box_tip.show(honorable_mentions);
+      }).on('mouseout', function(d) {
+        box_tip.hide(honorable_mentions);
+      });
+  svg.append("text").attr("x", 660).attr("y", 50)
+     .text("Honorable mentions").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle").style("fill", "white")
+  svg.append("text").attr("x", 700).attr("y", 75)
+     .text("(hover)").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle").style("fill", "white")
 
   /* draw countries */
   svg.append("g")
@@ -198,28 +232,28 @@ function ready(error, data, book_list) {
     .enter().append("path")
       .attr("d", path)
       .style("fill", function(d) { return color[colors[d.id]]; })
-      .style('stroke', 'white')
-      .style('stroke-width', 1.5)
-      .style("opacity",0.8)
+      .style("stroke", "white")
+      .style("stroke-width", 1.5)
+      .style("opacity", 0.8)
 
       // tooltips
-      .style("stroke","white")
-      .style('stroke-width', 0.3)
-      .on('mouseover',function(d){
+      .style("stroke", "white")
+      .style("stroke-width", 0.3)
+      .on("mouseover", function(d){
         tip.show(d);
 
         d3.select(this)
           .style("opacity", 1)
-          .style("stroke","white")
-          .style("stroke-width",3);
+          .style("stroke", "white")
+          .style("stroke-width", 3);
       })
-      .on('mouseout', function(d){
+      .on('mouseout', function(d) {
         tip.hide(d);
 
         d3.select(this)
           .style("opacity", 0.8)
-          .style("stroke","white")
-          .style("stroke-width",0.3);
+          .style("stroke", "white")
+          .style("stroke-width", 0.3);
       });
 
   svg.append("path")
