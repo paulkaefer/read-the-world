@@ -77,8 +77,9 @@ function ready(error, data, book_list) {
   var colors = {};
   var countries_and_codes = {};
 
-  var completed_table = d3.select("#completed-table");
-  var recommendations_table = d3.select("#recommendations-table");
+  var completed_table = d3.select("#completed-table-body");
+  var honorable_mentions_table = d3.select("#honorable-mentions-table-body");
+  var recommendations_table = d3.select("#recommendations-table-body");
     
   var completed_count = 0;
   var queue_count = 0;
@@ -102,6 +103,18 @@ function ready(error, data, book_list) {
     if (d.id == "ZZZ") {
         honorable_mentions += "&bull; <em>" + d.Book + "</em>, " + d.Author + " (" + d.Notes + ")<br>";
         //console.log(honorable_mentions);
+        
+        var row = honorable_mentions_table.append("tr");
+
+        var cell = row.append("td");
+        var book = cell.append("em");
+        book.text(d.Book);
+
+        var cell = row.append("td");
+        cell.text(d.Author);
+
+        var cell = row.append("td");
+        cell.text(d.Notes);
     } else if (d.Read == 1) {
         bookList[d.id] += "&bull; <em>" + d.Book + "</em>, by " + d.Author + "<br>";
         completed_count++;
@@ -265,24 +278,28 @@ function ready(error, data, book_list) {
 function expand_completed_table() {
     d3.select("#collapse_completed_table").style("display", "");
     d3.select("#expand_completed_table").style("display", "none");
-    d3.select("#table0").style("display", "");
+    d3.select("#completed-table").style("display", "");
+    
+    d3.select("#honorable-mentions-div").style("display", "");
 }
 
 function expand_reading_queue() {
     d3.select("#collapse_reading_queue").style("display", "");
     d3.select("#expand_reading_queue").style("display", "none");
-    d3.select("#table1").style("display", "");
+    d3.select("#recommendations-table").style("display", "");
 }
 
 function collapse_completed_table() {
     d3.select("#collapse_completed_table").style("display", "none");
     d3.select("#expand_completed_table").style("display", "");
-    d3.select("#table0").style("display", "none");
+    d3.select("#completed-table").style("display", "none");
+    
+    d3.select("#honorable-mentions-div").style("display", "none");
 }
 
 function collapse_reading_queue() {
     d3.select("#collapse_reading_queue").style("display", "none");
     d3.select("#expand_reading_queue").style("display", "");
-    d3.select("#table1").style("display", "none");
+    d3.select("#recommendations-table").style("display", "none");
 }
 

@@ -33,7 +33,7 @@
 <h2 id="completed-count">Books I've completed reading:</h2>
 <h3 id="expand_completed_table" style="opacity:0.5;" onclick="expand_completed_table();"><em>click to expand</em></h3>
 <h3 id="collapse_completed_table" style="opacity:0.5;display:none;" onclick="collapse_completed_table();"><em>click a column header to sort</em></h3>
-<table border="2" class="sortable" width=70% style="display:none;" id="table0">
+<table border="2" class="sortable" width=70% style="display:none;" id="completed-table">
   <thead>
     <tr>
       <th>Country</th>
@@ -42,14 +42,27 @@
       <th>Notes</th>
     </tr>
   </thead>
-  <tbody id="completed-table"></tbody>
+  <tbody id="completed-table-body"></tbody>
 </table>
+<div id="honorable-mentions-div" style="display:none;">
+    <h4>Honorable mentions:</h4>
+    <table border="2" class="sortable" width=70% id="honorable-mentions-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author(s)</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody id="honorable-mentions-table-body"></tbody>
+    </table>
+</div>
 
 <br><br>
 <h2 id="queue-count">In my reading queue:</h2>
 <h3 id="expand_reading_queue" style="opacity:0.5;" onclick="expand_reading_queue();"><em>click to expand</em></h3>
 <h3 id="collapse_reading_queue" style="opacity:0.5;display:none;" onclick="collapse_reading_queue();"><em>click a column header to sort</em></h3>
-<table border="2" class="sortable" width=70% style="display:none;" id="table1">
+<table border="2" class="sortable" width=70% style="display:none;" id="recommendations-table">
   <thead>
     <tr>
       <th>Country</th>
@@ -58,7 +71,7 @@
       <th>Notes</th>
     </tr>
   </thead>
-  <tbody id="recommendations-table"></tbody>
+  <tbody id="recommendations-table-body"></tbody>
 </table>
 
 <br><br><br>
