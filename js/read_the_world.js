@@ -263,8 +263,6 @@ function ready(error, data, book_list) {
 }
 
 function expand_completed_table() {
-    /*d3.select("#expand0").remove();*/
-
     d3.select("#collapse_completed_table").style("display", "");
     d3.select("#expand_completed_table").style("display", "none");
     d3.select("#table0").style("display", "");
