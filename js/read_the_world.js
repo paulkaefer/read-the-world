@@ -222,6 +222,8 @@ function ready(error, data, book_list) {
   svg.append("text").attr("x", 40).attr("y", 90)
      .text(`Both (${total_with_both})`).style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle")
     
+  // note duplication of mouseover for hover:
+  // rectangle and two text elements
   svg.append("rect").attr("class", "honorable-mentions-box")
      .attr("x", 650).attr("y", 30).attr("width", 150).attr("height", 65)
      // forest green:
@@ -232,9 +234,17 @@ function ready(error, data, book_list) {
         box_tip.hide(honorable_mentions);
       });
   svg.append("text").attr("x", 660).attr("y", 50)
-     .text("Honorable mentions").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle").style("fill", "white")
+     .text("Honorable mentions").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle").style("fill", "white").on('mouseover', function(d) {
+        box_tip.show(honorable_mentions);
+      }).on('mouseout', function(d) {
+        box_tip.hide(honorable_mentions);
+      });
   svg.append("text").attr("x", 700).attr("y", 75)
-     .text("(hover)").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle").style("fill", "white")
+     .text("(hover)").style("font-size", "15px").style("font-family", "Helvetica").attr("alignment-baseline", "middle").style("fill", "white").on('mouseover', function(d) {
+        box_tip.show(honorable_mentions);
+      }).on('mouseout', function(d) {
+        box_tip.hide(honorable_mentions);
+      });
 
   /* draw countries */
   svg.append("g")
