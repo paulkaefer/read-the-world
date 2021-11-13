@@ -4,8 +4,10 @@ Reading expands our horizons and [builds empathy](https://www.theguardian.com/bo
 
 Ideally, the book is written by an author from the country, and at least partly takes place in the country. As the friend who inspired me to read the world suggests, the books that "everyone" reads during junior high or secondary school in a given country are great for this journey.
 
-I welcome your reading suggestions or ideas for improvement. Feel free to [open an issue](https://github.com/paulkaefer/read-the-world/issues)
+I welcome your reading suggestions* or ideas for improvement. Feel free to [open an issue](https://github.com/paulkaefer/read-the-world/issues)
 or submit a [pull request](https://github.com/paulkaefer/read-the-world/pulls). Bonus points for graphic novels and queer literature. I am also open to reading novellas and plays. I won't necessarily track short stories on the website, but I will track collections of short stories, as well as children's books.
+
+*a disclaimer: my counting a book here does not mean it is the "best" book for that country; I welcome suggestions especially for books that are culturally important (for example, a great recommendation is the kind of book students in that country are encouraged/required to read)
 
 ## Using and contributing
 I released this under a Creative Commons license,
