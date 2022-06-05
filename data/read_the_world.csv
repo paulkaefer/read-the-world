@@ -5,7 +5,7 @@ AFG,AF,Afghanistan,A Thousand Splendid Suns,Khaled Hosseini,0,I have a copy,0
 AFG,AF,Afghanistan,The Kite Runner,Khaled Hosseini,1,,0
 AFG,AF,Afghanistan,The 'Stan,Kevin Knodell and David Axe; illustrated by Blue Delliquanti,1,,0
 ALB,AL,Albania,,,0,,0
-DZA,DZ,Algeria,Algeria Is Beautiful like America,Olivia Burton,0,I have a copy,0
+DZA,DZ,Algeria,Algeria Is Beautiful like America,Olivia Burton,1,,0
 ,AS,American Samoa,,,0,,0
 ,AD,Andorra,,,0,,0
 AGO,AO,Angola,,,0,,0
@@ -13,7 +13,8 @@ AGO,AO,Angola,,,0,,0
 ATA,AQ,Antarctica,Lost in the Antarctic: The Doomed Voyage of the Endurance,Tod Olson,0,I have a copy (thanks to a Little Free Library!),0
 ATA,AQ,Antarctica,Big Dead Place: Inside the Strange and Menacing World of Antarctica,Nicholas Johnson,1,recommended by /u/Peace_Love_Happiness on reddit,0
 ,AG,Antigua and Barbuda,,,0,,0
-ARG,AR,Argentina,Out of the Silence: After the Crash,Eduardo Strauch with Mireya Soriano,0,I am currently listening to the audiobook from Libro.fm,0
+ARG,AR,Argentina,Out of the Silence: After the Crash,Eduardo Strauch with Mireya Soriano,1,"double-counting since the crash was technically Argentina, though the author and many characters are Uruguayan",0
+ARG,AR,Argentina,Casablanca and Other Stories,Edgar Brau,0,I have a copy,0
 ARM,AM,Armenia,Artush and Zaur,Ali Akbar,1,machine-translated; see https://queerarmenianlibrary.com/artush-and-zaur-by-ali-akbar/,0
 ARM,AM,Armenia,The 40 days of Musa Dagh,Franz Werfel,0,,0
 ,AW,Aruba,,,0,,0
@@ -353,7 +354,8 @@ USA,US,United States,American War,Omar El Akkad,1,,1
 USA,US,United States,They Called Us Enemy,"George Takei, Justin Eisinger, and Steven Scott",1,,1
 USA,US,United States,Fire on the Mountain,Terry Bisson,1,,1
 USA,US,United States,Stuck Rubber Baby,Howard Cruse,1,,1
-URY,UY,Uruguay,,,0,,0
+URY,UY,Uruguay,Out of the Silence: After the Crash,Eduardo Strauch with Mireya Soriano,0,double-counting; see note under Argentina,0
+URY,UY,Uruguay,The Woman from Uruguay,Pedro Mairal,0,I have a copy,0
 UZB,UZ,Uzbekistan,,,0,,0
 VUT,VU,Vanuatu,,,0,,0
 ,VA,Vatican City,,,0,,1
